@@ -1,0 +1,121 @@
+body
+{ background-image:url('https://image.jimcdn.com/app/cms/image/transf/none/path/s855c79ac12a4a9d9/backgroundarea/i18ac69d76e28729c/version/1534254881/image.jpg');
+
+} 
+#header{color: blue}
+.style{background-color:red}
+.style_1 {font-size: 100px}
+.href {color: green;
+font-size: 30px;
+text-decoration:none;}
+.href:hover {color: #5f1a1a;
+}
+header {
+width : calc(100% - 20px);
+height :50px;
+border-botton: 2px solid silver;
+padding : 10px;
+font-size : 1.2em;
+color: #333;
+background-color:#00FF00;
+float: left;
+margin-top:20px;
+}
+article , aside{
+background-color:#DAA520 ;
+height: 400px;
+border : 1px solid silver;
+box-sizing : border-box;
+margin-top:20px;
+float:left;
+border-radius:15px;
+}
+article{
+width: 60%;
+margin-left: 5%;
+margin-right: 5%;\
+padding: 10px;
+	
+}
+aside{
+width: 25%;
+
+
+	
+}
+
+footer{
+width : calc(100% - 20px);
+height :50px;
+float: left;
+margin-top: 20px;
+background-color:#A0522D ;
+border-top: 2px solid #A0522D;
+padding : 10px;
+font-size : 1.2em;
+color: #333;	
+}
+.spanBlock {
+display:block;
+height:100px;
+width:100px;
+border:1px solid red;	
+overflow:auto;	
+	
+}
+aside ul{
+list-stile-position:inside;
+	
+}
+big{
+size:80px;
+color:red;
+margin-top:25px;
+margin-left:5px;
+float:left;
+
+}
+img{
+margin-right:10px;
+margin-left:10px;
+margin-top:1px;
+float:left;
+position:relative;
+}
+ #navbar ul{
+        display: none;
+        background-color: #008000;
+        position: absolute;
+        top: 100%;
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+        height: 30px;
+        background-color: #00FF00;
+        padding-left: 30px;
+        min-width: 470px;
+		margin-left:600px;
+		margin-right:150px;
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        display: block;
+        padding: 6px;
+        width: 100px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      }
+      #navbar ul li { float: none; }
+      #navbar li:hover { background-color: #f90; }
+      #navbar ul li:hover { background-color: #666; }
+
